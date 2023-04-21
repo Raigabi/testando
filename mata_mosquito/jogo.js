@@ -92,7 +92,7 @@ function posicaoRandomica() {
 
 	//criar o elemento html MOSQUITO
 	var mosquito = document.createElement('img') //cria elemnto apartir da tag img
-	mosquito.src = 'passaro.png' // imagem do mosquito passa o local e a imagem para criar o elemnto
+	mosquito.src = 'beija-flor1.png' // imagem do mosquito passa o local e a imagem para criar o elemnto
 	mosquito.className = tamanhoAleatorio() + ' ' + ladoAleatorio() // gera mosquito de acordo com as funções(tamanhoaleatorio e ladoaleatorio)
 	mosquito.style.left = posicaoX + 'px' //cria a imagem do mosquito no eixo x
 	mosquito.style.top = posicaoY + 'px' //cria a imagem do mosquito no top
